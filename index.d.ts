@@ -21,7 +21,7 @@ export declare function $super<T extends object>($this: T): T;
  * Define a property which can be used in a @see MemberMap.
  * @param descriptor The property descriptor.
  */
-export declare function property(descriptor: PropertyDescriptor): PropertyDescriptor;
+export declare function property(descriptor?: PropertyDescriptor): PropertyDescriptor;
 export declare type Constructor<T> = new (...args: any[]) => T;
 export interface MemberMap {
     [name: string]: PropertyDescriptor | unknown;

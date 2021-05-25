@@ -82,7 +82,10 @@ function isMarkedPropertyDescriptor(target: unknown) {
  * Define a property which can be used in a @see MemberMap.
  * @param descriptor The property descriptor.
  */
-export function property(descriptor: PropertyDescriptor): PropertyDescriptor {
+ export function property(descriptor?: PropertyDescriptor): PropertyDescriptor {
+    if (!descriptor) {
+        descriptor = {};
+    }
     (descriptor as MarkedPropertyDescriptor).$IsPropertyDescriptor = true;
     return descriptor;
 }

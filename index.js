@@ -68,6 +68,9 @@ function isMarkedPropertyDescriptor(target) {
  * @param descriptor The property descriptor.
  */
 export function property(descriptor) {
+    if (!descriptor) {
+        descriptor = {};
+    }
     descriptor.$IsPropertyDescriptor = true;
     return descriptor;
 }
