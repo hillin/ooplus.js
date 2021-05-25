@@ -1,6 +1,6 @@
 {
-    "name": "ooplus.js",
-    "version": "0.1.1",
+    "name": "ooplus-js",
+    "version": "0.1.2",
     "description": "Utilities to improve object-oriented programming in Javascript and Typescript.",
     "type": "module",
     "homepage": "https://github.com/hillin/ooplus.js",
