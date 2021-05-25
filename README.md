@@ -3,7 +3,7 @@ Utilities to improve object-oriented programming in JavaScript and Typescript.
 
 ## Getting Started
 
-You can get ooplus.js on [npm](https://www.npmjs.com/package/ooplus.js).
+You can get ooplus.js on [npm](https://www.npmjs.com/package/ooplus-js).
 
 ## Use Cases
 
@@ -69,6 +69,7 @@ The `$super` function here mimics the ES6 `super` syntax, to call a method defin
 ### Dynamic inheritance
 
 ```typescript
+import { extend } from "ooplus-js"
 class BaseClass {
     constructor(readonly value: number) {}
 }
