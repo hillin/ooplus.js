@@ -7,7 +7,7 @@ You can get ooplus.js on [npm](https://www.npmjs.com/package/ooplus-js).
 
 ## Use Cases
 
-### Add functionalities an existing class
+### Add functionalities to an existing class
 
 ```typescript
 import { enhance, property } from "ooplus-js"
